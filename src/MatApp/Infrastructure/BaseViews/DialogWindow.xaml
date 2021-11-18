@@ -1,0 +1,60 @@
+﻿<Window x:Name="MatDialogWindow"
+        x:Class="MatApp.Infrastructure.BaseViews.DialogWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+        xmlns:mb="clr-namespace:MatApp.Behaviours"
+        mc:Ignorable="d"
+        SizeToContent="WidthAndHeight"
+        ResizeMode="NoResize"
+        ShowInTaskbar="True"
+        WindowStartupLocation="CenterOwner"
+        WindowState="Normal"
+        Background="Transparent"
+        AllowsTransparency="True"
+        WindowStyle="None"
+        Title="Dialog"
+        BorderBrush="Black"
+        BorderThickness="0"        
+        d:DesignHeight="200"
+        d:DesignWidth="400">
+    <Window.Resources>
+      
+        <Storyboard x:Key="ExitAnimation">
+            <DoubleAnimation Storyboard.TargetName="ContentScale"
+                             Storyboard.TargetProperty="(ScaleTransform.ScaleX)"
+                             Duration="0:0:0.2"
+                             To="0" />
+            <DoubleAnimation Storyboard.TargetName="ContentScale"
+                             Storyboard.TargetProperty="(ScaleTransform.ScaleY)"
+                             Duration="0:0:0.2"
+                             To="0" />
+            <DoubleAnimation Storyboard.Target="{Binding ElementName=MatDialogWindow}"
+                             Storyboard.TargetProperty="(Window.Opacity)" 
+                             From="1" To="0"
+                             Duration="0:0:0.2"/>
+            
+        </Storyboard>
+    </Window.Resources>
+    <i:Interaction.Behaviors>
+        <mb:CloseBehavior Storyboard="{StaticResource ExitAnimation}" />
+    </i:Interaction.Behaviors>
+
+    <Border Background="{StaticResource Color_DialogBackgrounds}"
+            CornerRadius="10"
+            Padding="10">
+
+        <ContentPresenter x:Name="DialogPresenter"
+                          RenderTransformOrigin="0.5 0.5">
+            <ContentPresenter.RenderTransform>
+                <ScaleTransform x:Name="ContentScale"
+                                ScaleX="1"
+                                ScaleY="1" />
+            </ContentPresenter.RenderTransform>
+        </ContentPresenter>
+
+    </Border>
+
+</Window>

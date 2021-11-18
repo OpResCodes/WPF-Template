@@ -1,0 +1,47 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+
+    <SolidColorBrush x:Key="Color_DialogBackgrounds"
+                     Color="#272537" />
+
+    <SolidColorBrush x:Key="Color_VisionGray"
+                     Color="#3d4c4f" />
+
+    <SolidColorBrush x:Key="Color_Tuerkis"
+                     Color="#79d4e6" />
+
+    <SolidColorBrush x:Key="Color_UHH_Rot"
+                     Color="#e2001a" />
+
+    <SolidColorBrush x:Key="Color_UHH_Blau"
+                     Color="#0271bb" />
+
+    <SolidColorBrush x:Key="Color_UHH_Steingrau"
+                     Color="#3b515b" />
+
+    <SolidColorBrush x:Key="Color_Desior_Dunkel"
+                     Color="#424242" />
+
+    <SolidColorBrush x:Key="Color_Desior_Hell"
+                     Color="#FBC02D" />
+
+    <SolidColorBrush x:Key="Color_Graublau"
+                     Color="#242f3e" />
+
+    <SolidColorBrush x:Key="Color_Rbtv_Rot"
+                     Color="#e3171d" />
+
+    <SolidColorBrush x:Key="Color_Darkish"
+                     Color="#272537" />
+
+    <LinearGradientBrush x:Key="Color_BlueGradient"
+                         StartPoint="0,0"
+                         EndPoint="1,2">
+        <GradientStop Color="#5bc3ff"
+                      Offset="0.0" />
+        <GradientStop Color="#3aa0ff"
+                      Offset="1" />
+    </LinearGradientBrush>
+
+</ResourceDictionary>

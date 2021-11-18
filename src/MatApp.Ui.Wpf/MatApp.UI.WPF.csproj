@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon />
+    <StartupObject />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Page Remove="MatApp.UI.WPF.Xaml" />
+    <Page Remove="System.Windows.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="MatApp.UI.WPF.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Include="System.Windows.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+  </ItemGroup>
+
+</Project>
