@@ -6,11 +6,14 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Matthes Koch</Authors>
     <Company>desior GmbH</Company>
-    <Product>MatWpfControls</Product>
+    <Product>MatApp.UI.Controls</Product>
     <Description>Some usefull Controls for WPF</Description>
     <PackageIcon>Mat_Logo_128_nuget.png</PackageIcon>
     <PackageIconUrl />
     <Version>1.0.2</Version>
+    <RepositoryUrl>https://github.com/OpResCodes/WPF-Template</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>WPF</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
@@ -18,10 +21,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\..\..\..\..\Bilder\Eigenkreationen\Mat_Logo_128_nuget.png">
-      <Pack>True</Pack>
-      <PackagePath></PackagePath>
-    </None>
     <None Include="img\Mat_Logo_128_nuget.png">
       <Pack>True</Pack>
       <PackagePath></PackagePath>

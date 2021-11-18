@@ -4,7 +4,7 @@ using System.Windows.Controls;
 using System.Windows.Media.Animation;
 using System.Windows.Shapes;
 
-namespace MatWpfControls
+namespace MatApp.UI.Controls
 {
 
     [TemplateVisualState(Name = "DeterminateState", GroupName = "ProgressStates")]

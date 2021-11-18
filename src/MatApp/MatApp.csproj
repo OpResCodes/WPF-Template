@@ -30,7 +30,6 @@
 
   <ItemGroup>
     <PackageReference Include="CommunityToolkit.Mvvm" Version="7.0.3" />
-    <PackageReference Include="MatWpfControls" Version="1.0.2" />
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
     <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.31" />
     <PackageReference Include="Ookii.Dialogs.Wpf" Version="3.1.0" />

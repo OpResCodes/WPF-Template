@@ -1,6 +1,6 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-                    xmlns:local="clr-namespace:MatWpfControls">
+                    xmlns:local="clr-namespace:MatApp.UI.Controls">
 
     <Style TargetType="{x:Type local:VisualCheckBox}">
         <Setter Property="Template">

@@ -1,7 +1,7 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
 
-namespace MatWpfControls
+namespace MatApp.UI.Controls
 {
     [TemplateVisualState(GroupName = "StatusStates", Name = "IsDecreased")]
     [TemplateVisualState(GroupName = "StatusStates", Name = "IsIncreased")]
