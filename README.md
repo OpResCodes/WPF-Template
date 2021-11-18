@@ -1,2 +1,3 @@
 # WPF-Template
-My WPF Template to quickly start a Windows App
+
+A Windows Presentation Template to quickly start up Windows apps.
