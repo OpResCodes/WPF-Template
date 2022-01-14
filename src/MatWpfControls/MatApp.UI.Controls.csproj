@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net5.0-windows</TargetFramework>
     <UseWPF>true</UseWPF>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <Authors>Matthes Koch</Authors>
     <Company>desior GmbH</Company>
     <Product>MatApp.UI.Controls</Product>
@@ -13,7 +13,7 @@
     <Version>1.0.2</Version>
     <RepositoryUrl>https://github.com/OpResCodes/WPF-Template</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageTags>WPF</PackageTags>
+    <PackageTags>WPF, Controls</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
